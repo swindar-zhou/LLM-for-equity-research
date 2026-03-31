@@ -440,7 +440,7 @@ for company in companies:
 **Architecture**:
 ```
 ┌─────────────────────────────────────────────────┐
-│ L1: In-Memory Cache (LRU)                      │
+│ L1: In-Memory Cache (LRU)                       │
 │ • Latency: 0ms                                  │
 │ • Hit rate: 80%                                 │
 │ • Cost: $0                                      │
@@ -448,7 +448,7 @@ for company in companies:
 └─────────────────────────────────────────────────┘
                     ↓ (miss)
 ┌─────────────────────────────────────────────────┐
-│ L2: Redis (Shared Team Cache)                  │
+│ L2: Redis (Shared Team Cache)                   │
 │ • Latency: 5ms                                  │
 │ • Hit rate: 15%                                 │
 │ • Cost: ~$0.001/query                           │
@@ -456,7 +456,7 @@ for company in companies:
 └─────────────────────────────────────────────────┘
                     ↓ (miss)
 ┌─────────────────────────────────────────────────┐
-│ L3: Database (PostgreSQL)                      │
+│ L3: Database (PostgreSQL)                       │
 │ • Latency: 50ms                                 │
 │ • Hit rate: 4%                                  │
 │ • Cost: ~$0.01/query                            │
@@ -464,7 +464,7 @@ for company in companies:
 └─────────────────────────────────────────────────┘
                     ↓ (miss)
 ┌─────────────────────────────────────────────────┐
-│ L4: LLM Re-computation                         │
+│ L4: LLM Re-computation                          │
 │ • Latency: 2000ms                               │
 │ • Hit rate: 1%                                  │
 │ • Cost: ~$0.15/query                            │
@@ -730,7 +730,7 @@ General RAG → Financial RAG:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 src/
@@ -764,10 +764,6 @@ src/
 │   ├── Cost optimization (fork agents)
 │   └── Production considerations
 │
-├── learnings/QUICK_REFERENCE.md             # Cheat sheet
-│   ├── Key numbers to memorize
-│   ├── Decision frameworks
-│   └── Interview templates
 │
 └── README.md                      # This file
 ```

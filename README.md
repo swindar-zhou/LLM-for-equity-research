@@ -774,7 +774,7 @@ src/
 
 ---
 
-## For Interviewers
+## Questions
 
 ### Technical Depth
 
@@ -822,26 +822,15 @@ My approach is more complex, but it solves the fundamental problem: preserve sem
   - `src/services/compact/autoCompact.ts` - Context compaction
   - `src/Tool.ts` - Engineering discipline in tool design
 
-### Research Papers
-- "Dynamic Retrieval Augmented Generation" (2024)
-- "Knowledge Graphs vs Vector Embeddings for Financial Analysis" (2025)
-- "Cost-Optimal Model Selection in Production LLM Systems" (2026)
-
-### Industry Best Practices
-- Hedge fund RAG systems (Two Sigma, Renaissance, Citadel approaches)
-- Financial document processing (SEC filing parsers)
-- Production LLM deployment (cost optimization, latency reduction)
 
 ---
 
 ## Key Achievements
 
 1. **87% cost reduction** through three-tier model selection
-2. **127x latency improvement** through multi-tier caching
-3. **94% accuracy** with hybrid approach (vs 96% all-Claude at 7x cost)
-4. **Production-ready** implementation (450 lines, comprehensive error handling)
-5. **Innovative** beyond source material (knowledge graph, multi-model routing)
-6. **Well-documented** (1000+ lines of docs, benchmarks, trade-off analysis)
+2. **Production-ready** implementation (450 lines, comprehensive error handling)
+3. **Innovative** beyond source material (knowledge graph, multi-model routing)
+4. **Well-documented** (1000+ lines of docs, benchmarks, trade-off analysis)
 
 ---
 

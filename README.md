@@ -1,4 +1,6 @@
-A repo documenting my learning from Claude Code to build my own agent in understanding companies' financial statements. # Hedge Fund RAG System: Production-Ready Architecture
+## Hedge Fund RAG System: Production-Ready Architecture
+
+A repo documenting my learning from Claude Code to build my own agent in understanding companies' financial statements. 
 
 > **A sophisticated RAG system for fundamental equity research, built by learning from Claude Code's production architecture and innovating beyond it.**
 
